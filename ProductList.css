@@ -1,0 +1,30 @@
+.product-list {
+    padding: 2rem;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product-item h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .product-item p {
+    color: #555;
+  }
+  
